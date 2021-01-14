@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+     <header id="header_wrap">
+        <div id="header_inner">
+            <h1 class="city">Time Zone</h1>
+        
+        <div id="temperature-section">
+            <div class="num">
+                <div class="cel"><span class="temp">0</span> <span> &#8451;</span></div>
+            <div class="weather">Clody</div>
+            </div>
+            <div class="skyicon"></div>
+        </div>
+    </div>
+     </header>
+     <section id="detail">
+         <div id="detail-inner">
+            <div class="htemp-box box">
+                <h2 class="htemp-tit tit">Highest</h2>
+              <div class="num-box"> <div class="htemp numstring"></div><span class="sub"> &#8451;</span></div>
+            </div>
+            <div class="ltemp-box box">
+                <h2 class="ltemp-tit tit">Lowest</h2>
+                <div class="num-box"><div class="ltemp numstring"></div><span class="sub"> &#8451;</span></div>
+            </div>
+        <div class="humid-box box">
+            <h2 class="humid-tit tit">Humidity</h2>
+            <div class="num-box"><div class="humid numstring"></div><span class="sub">%</span></div>
+        </div>
+        <div class="wind-box box">
+            <h2 class="wind-tit tit">Wind Speed</h2>
+           <div class="wind numstring"></div>
+        </div>
+        <div class="clothes-box box">
+            <h2 class="clothes-tit tit">Clothes</h2>
+           <div class="clothes-icon icon"></div>
+        </div>
+        <div class="activity-box box">
+           <h2 class="activity-tit tit">Activity</h2>
+          <div class="activity-icon icon"></div>
+       </div>
+    </div><!--datail-inner-->
+     </section>
+    <script src="../js/script.js"></script>
+</body>
+</html>
